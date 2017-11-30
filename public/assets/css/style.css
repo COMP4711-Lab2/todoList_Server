@@ -1,0 +1,5 @@
+/* CSS definition file containing site stylesheet */
+body {}
+#content {width:100%; margin-left:5% auto;margin-right:5% auto;}
+#footer {font-size: small; font-style:italic;text-align:center;}
+.row>div {margin-bottom:10px;}
