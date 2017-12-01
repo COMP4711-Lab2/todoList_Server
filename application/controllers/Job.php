@@ -47,11 +47,10 @@ class Job extends Rest_Controller {
 	}
 	
 	// Handle an incoming DELETE - delete a todo item
-	function item_delete($key=null)
+	function index_delete($key=null)
 	{
 		$this->tasks->delete($key);
 		$this->response(array('ok'), 200);
 	}
-	
 	
 }
